@@ -2254,11 +2254,18 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		.icon.solid.major {
+			font-size: 2em; /* Default size for major icons */
+		}
+	
+		.small-icon {
+			font-size: 1em; /* Adjust size for specific icons */
+		}
 
 		.icon.major {
 			border: solid 1px;
 			display: inline-block;
-			border-radius: 100%;
+			border-radius: 70%;
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
@@ -2289,26 +2296,6 @@ input, select, textarea {
 				text-align: center;
 				line-height: 2em;
 			}
-
-		.icon.style1 {
-			color: #efa8b0;
-		}
-
-		.icon.style2 {
-			color: #c79cc8;
-		}
-
-		.icon.style3 {
-			color: #a89cc8;
-		}
-
-		.icon.style4 {
-			color: #9bb2e1;
-		}
-
-		.icon.style5 {
-			color: #8cc9f0;
-		}
 
 		@media screen and (max-width: 1680px) {
 
