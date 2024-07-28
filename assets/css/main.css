@@ -2869,7 +2869,7 @@ input, select, textarea {
 /* Icon image styling */
 	.icon-container img {
    		display: inline-block; /* Inline block to fit its container */
-    	max-width: 200px ; /* Adjust size as needed */
+    	max-width: 100px ; /* Adjust size as needed */
     	height: auto; /* Maintain aspect ratio */
     	border-radius: 50%; /* Optional: make the icon circular */
 }
@@ -2884,8 +2884,8 @@ input, select, textarea {
 /* Circular logo image styling */
 	.logo-container img {
     	display: inline-block; /* Inline block to fit its container */
-    	width: 200x; /* Adjust the width to your desired size */
-    	height: 200px; /* Ensure height is equal to width for a perfect circle */
+    	width: 100x; /* Adjust the width to your desired size */
+    	height: 100px; /* Ensure height is equal to width for a perfect circle */
     	border-radius: 50%; /* Makes the image circular */
     	object-fit: cover; /* Ensures the image covers the circle without stretching */
     	border: 2px solid #dddddd; /* Optional: adds a border around the logo */
